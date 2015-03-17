@@ -1,0 +1,60 @@
+.border {
+	border: 1px solid black;
+	width: 98%;
+	margin: 15px;
+	min-width: 768px;
+}
+
+.smallBorder {
+	border: 1px solid black;
+	margin: 15px;
+	margin-bottom: 150px;
+	
+}
+
+.name {
+	margin-left: 10px;
+}
+
+.links {
+	float: right;
+	margin-right: 10px;
+	height: 50px;
+  	line-height: 50px;
+  	padding: 5px;
+}
+
+.links a {
+	padding: 5px;
+}
+
+.bottomWhiteSpace {
+	margin-bottom: 150px;
+}
+
+.hobbyImage {
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+}
+
+.wrapText {
+	width: 15em;
+}
+
+.container {
+	position: relative;
+	height: 300px;
+}
+
+.absoluteCenter {
+   	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.formPadding {
+	margin: 10px;
+}

@@ -1,0 +1,23 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'  xmlns:dp="urn:import:com.google.gwt.user.datepicker.client" >
+	<ui:style src="Style.css"></ui:style>
+	    
+    <g:HorizontalPanel styleName='{style.border}'>
+    	<g:HorizontalPanel styleName='{style.bottomWhiteSpace}'>
+    		<g:Image styleName='{style.hobbyImage}' url="surf.jpg" />
+    		<g:VerticalPanel>
+    			<g:HTMLPanel><h3><g:Anchor>Surfing</g:Anchor></h3></g:HTMLPanel>
+    			<g:Label styleName='{style.wrapText}'>I enjoy surfing even though I'm very bad at it</g:Label>
+    		</g:VerticalPanel>
+    	</g:HorizontalPanel>
+    	
+    	<g:HorizontalPanel>
+    		<g:Image styleName='{style.hobbyImage}' url="guitar.jpg" />
+    		<g:VerticalPanel>
+    			<g:HTMLPanel><h3><g:Anchor>Guitar</g:Anchor></h3></g:HTMLPanel>
+    			<g:Label styleName='{style.wrapText}'>When I need to clear my head, sometimes I like to jam on the guitar</g:Label>
+    		</g:VerticalPanel>
+    	</g:HorizontalPanel>	
+    </g:HorizontalPanel>
+    
+</ui:UiBinder>

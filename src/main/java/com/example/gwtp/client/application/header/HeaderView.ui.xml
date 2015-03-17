@@ -1,0 +1,17 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'  xmlns:dp="urn:import:com.google.gwt.user.datepicker.client" >
+	<ui:with type="com.example.gwtp.client.place.NameTokens" field="nameTokens"></ui:with>
+	<ui:style src="Style.css"></ui:style>
+    
+<g:HorizontalPanel styleName='{style.border}'>
+    	<g:HTMLPanel styleName='{style.name}'><h2>Dominic Holt</h2></g:HTMLPanel>
+    	<g:HorizontalPanel styleName='{style.links}'>
+    	    <g:InlineHyperlink targetHistoryToken="{nameTokens.getHome">Home</g:InlineHyperlink>
+    	    <g:HTMLPanel><hr style="width: 1px; height: 20px; display: inline;" /></g:HTMLPanel>
+    		<g:InlineHyperlink targetHistoryToken="{nameTokens.getSurf">Surfing</g:InlineHyperlink>
+    	    <g:HTMLPanel><hr style="width: 1px; height: 20px; display: inline;" /></g:HTMLPanel>
+    		<g:InlineHyperlink targetHistoryToken="{nameTokens.getGuitar">Guitar</g:InlineHyperlink>
+    	</g:HorizontalPanel>
+    </g:HorizontalPanel>
+    
+</ui:UiBinder>

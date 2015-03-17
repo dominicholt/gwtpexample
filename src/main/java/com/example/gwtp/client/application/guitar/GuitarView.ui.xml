@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'  xmlns:dp="urn:import:com.google.gwt.user.datepicker.client" >
+	<ui:style src="Style.css"></ui:style>
+    
+    <g:VerticalPanel styleName='{style.border}'>
+        <g:HTMLPanel styleName='{style.formPadding}'><h3>Guitar</h3></g:HTMLPanel>
+    	<g:VerticalPanel styleName='{style.smallBorder}'>
+    		<g:HorizontalPanel styleName='{style.formPadding}'>
+    			<g:Label>Name</g:Label>
+    			<g:TextBox></g:TextBox>
+    		</g:HorizontalPanel>
+    		<g:HorizontalPanel styleName='{style.formPadding}'>
+    			<g:Label>Started</g:Label>
+    		<dp:DateBox ui:field="db"></dp:DateBox>
+    		</g:HorizontalPanel>
+    		<g:Button styleName='{style.formPadding}'>Reset Form</g:Button>
+    	</g:VerticalPanel>
+    </g:VerticalPanel>
+    
+</ui:UiBinder>
